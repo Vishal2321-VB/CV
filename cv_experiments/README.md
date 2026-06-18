@@ -1,6 +1,6 @@
 # Computer Vision with OpenCV — Lab Experiments
 
-20 self-contained Python experiments from the *List of CV Experiments* sheet.
+Self-contained Python experiments from the *List of CV Experiments* sheet.
 Each script runs on its own. If you don't pass an image/video, it generates a
 synthetic sample so the script still works.
 
@@ -45,5 +45,21 @@ Image windows wait for a key press; video windows: press `q` to advance/quit.
 | exp18_sobel_y.py | 14 | Edge detection — Sobel Y |
 | exp19_sobel_xy.py | 15 | Edge detection — Sobel XY |
 | exp20_laplacian_sharpening.py | 16, 17, 18 | Laplacian sharpening (3 masks) |
+| exp21_gradient_sharpening.py | 21 | Sharpening using gradient (Sobel) masking |
+| exp22_watermark.py | 22 | Insert a watermark into an image |
+| exp22b_crop_copy_paste.py | 22 | Crop, copy & paste a region into another image |
+| exp23_boundary_convolution.py | 23 | Find image boundary with a convolution kernel |
+| exp24_erosion.py | 24 | Morphology — erosion |
+| exp25_dilation.py | 25 | Morphology — dilation |
+| exp26_opening.py | 26 | Morphology — opening |
+| exp27_closing.py | 27 | Morphology — closing |
+| exp28_morph_gradient.py | 28 | Morphology — morphological gradient |
+| exp29_top_hat.py | 29 | Morphology — top hat |
+| exp30_black_hat.py | 30 | Morphology — black hat |
+| exp31_object_recognition.py | 31 | Object recognition via ORB feature matching |
+| exp32_video_reverse.py | 32 | Play a video in reverse |
+| exp33_face_detection.py | 33 | Face detection (Haar cascade) |
+| exp34_vehicle_detection.py | 34 | Vehicle detection in a video (Haar cascade) |
+| exp35_draw_extract.py | 35 | Draw rectangles and extract objects |
 
 `_sample.py` is a shared helper (image loader + sample generator), not an experiment.
